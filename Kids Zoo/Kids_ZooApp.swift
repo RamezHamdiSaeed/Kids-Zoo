@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct Kids_ZooApp: App {
+    @AppStorage("Pagination") var pagination:String = String(describing: Pages.SignIn)
+
+    init(){
+        pagination=String(describing: Pages.SignIn)
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if pagination == String(describing:Pages.SignIn){
+                SignIn()
+            }
+            else if pagination == String(describing: Pages.SignUp){
+                SignUp()
+            }
+            else{
+                MainView()
+            }
         }
     }
 }

@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E00AECC2BC15CC200F76FA9 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00AECB2BC15CC200F76FA9 /* Pagination.swift */; };
+		1E34CCAB2BC536FD00C15F28 /* GridOfMachedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34CCAA2BC536FD00C15F28 /* GridOfMachedItems.swift */; };
+		1E6D5C972BC1887C00FB9928 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D5C962BC1887C00FB9928 /* TabBar.swift */; };
+		1E6D5C992BC18DAA00FB9928 /* AnimalsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D5C982BC18DAA00FB9928 /* AnimalsImages.swift */; };
 		1E78F0C22BC0A7B00011C7D9 /* Kids_ZooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F0C12BC0A7B00011C7D9 /* Kids_ZooApp.swift */; };
-		1E78F0C42BC0A7B00011C7D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F0C32BC0A7B00011C7D9 /* ContentView.swift */; };
 		1E78F0C62BC0A7B10011C7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78F0C52BC0A7B10011C7D9 /* Assets.xcassets */; };
 		1E78F0C92BC0A7B10011C7D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78F0C82BC0A7B10011C7D9 /* Preview Assets.xcassets */; };
+		1E78F0D02BC0A8A10011C7D9 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F0CF2BC0A8A10011C7D9 /* SignIn.swift */; };
+		1E78F0D22BC0A8B10011C7D9 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F0D12BC0A8B10011C7D9 /* SignUp.swift */; };
+		1E78F0D42BC0A9270011C7D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F0D32BC0A9270011C7D9 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E00AECB2BC15CC200F76FA9 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		1E34CCAA2BC536FD00C15F28 /* GridOfMachedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridOfMachedItems.swift; sourceTree = "<group>"; };
+		1E6D5C962BC1887C00FB9928 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1E6D5C982BC18DAA00FB9928 /* AnimalsImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsImages.swift; sourceTree = "<group>"; };
 		1E78F0BE2BC0A7B00011C7D9 /* Kids Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E78F0C12BC0A7B00011C7D9 /* Kids_ZooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kids_ZooApp.swift; sourceTree = "<group>"; };
-		1E78F0C32BC0A7B00011C7D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E78F0C52BC0A7B10011C7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E78F0C82BC0A7B10011C7D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E78F0CF2BC0A8A10011C7D9 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		1E78F0D12BC0A8B10011C7D9 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		1E78F0D32BC0A9270011C7D9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6D5C952BC1886000FB9928 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D5C962BC1887C00FB9928 /* TabBar.swift */,
+				1E34CCAA2BC536FD00C15F28 /* GridOfMachedItems.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
 		1E78F0B52BC0A7B00011C7D9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +72,15 @@
 		1E78F0C02BC0A7B00011C7D9 /* Kids Zoo */ = {
 			isa = PBXGroup;
 			children = (
+				1E6D5C952BC1886000FB9928 /* UIComponents */,
 				1E78F0C12BC0A7B00011C7D9 /* Kids_ZooApp.swift */,
-				1E78F0C32BC0A7B00011C7D9 /* ContentView.swift */,
+				1E78F0D32BC0A9270011C7D9 /* MainView.swift */,
+				1E78F0D12BC0A8B10011C7D9 /* SignUp.swift */,
+				1E78F0CF2BC0A8A10011C7D9 /* SignIn.swift */,
 				1E78F0C52BC0A7B10011C7D9 /* Assets.xcassets */,
 				1E78F0C72BC0A7B10011C7D9 /* Preview Content */,
+				1E00AECB2BC15CC200F76FA9 /* Pagination.swift */,
+				1E6D5C982BC18DAA00FB9928 /* AnimalsImages.swift */,
 			);
 			path = "Kids Zoo";
 			sourceTree = "<group>";
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E78F0C42BC0A7B00011C7D9 /* ContentView.swift in Sources */,
 				1E78F0C22BC0A7B00011C7D9 /* Kids_ZooApp.swift in Sources */,
+				1E34CCAB2BC536FD00C15F28 /* GridOfMachedItems.swift in Sources */,
+				1E78F0D42BC0A9270011C7D9 /* MainView.swift in Sources */,
+				1E00AECC2BC15CC200F76FA9 /* Pagination.swift in Sources */,
+				1E6D5C972BC1887C00FB9928 /* TabBar.swift in Sources */,
+				1E78F0D22BC0A8B10011C7D9 /* SignUp.swift in Sources */,
+				1E78F0D02BC0A8A10011C7D9 /* SignIn.swift in Sources */,
+				1E6D5C992BC18DAA00FB9928 /* AnimalsImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
